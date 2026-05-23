@@ -11,7 +11,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const links = ['About', 'Skills', 'Experience', 'Projects', 'Contact']
+  const links = ['About', 'Skills', 'Tools', 'Experience', 'Projects', 'Contact']
 
   const scrollTo = (id) => {
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: 'smooth' })
@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="nav-brand" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
         <span className="brand-dot" />
-        <span>Prathish V</span>
+        <span>Babhusankar G</span>
       </div>
 
       <ul className={`nav-links${menuOpen ? ' open' : ''}`}>

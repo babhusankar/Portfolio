@@ -364,7 +364,7 @@ end`}</pre>
               <span className="contact-value">Connect with me</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/babhusankar"
               target="_blank"
               rel="noreferrer"
               className="contact-card"

@@ -172,6 +172,14 @@ export default function App() {
             >
               Get In Touch
             </a>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="btn-outline"
+            >
+              View Resume
+            </a>
           </div>
         </div>
         <div className="hero-visual">
